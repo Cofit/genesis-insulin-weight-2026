@@ -64,20 +64,3 @@ of weight loss during obesity treatment"**
 > **Note:** Fig. 1 and Fig. 5a are schematic diagrams not generated
 > by this script.
 
----
-
-## Data availability
-
-The full analytical dataset cannot be shared publicly due to patient
-privacy regulations (Taiwan's Personal Data Protection Act) and
-institutional ethics requirements (TSGHIRB No. B202505071).
-
-Reviewers requiring access to the full dataset for verification
-purposes may contact the corresponding authors directly.
-
----
-
-## Corresponding authors
-
-- Andy P. Tsai (andytsai@stanford.edu)
-- Yen-Jen Sung (yjsungmstw@gmail.com)
