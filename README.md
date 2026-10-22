@@ -1,4 +1,4 @@
-# Analysis Code — Peer Review Version
+# Analysis Code
 
 This repository contains the analysis code submitted for peer review of
 the manuscript:
@@ -6,7 +6,6 @@ the manuscript:
 **"Insulin response and protein intake are associated with distinct aspects
 of weight loss during obesity treatment"**
 
-Submitted to *Nature Health* (under review).
 
 ---
 
