@@ -14,13 +14,12 @@ of weight loss during obesity treatment"**
 | File | Description |
 |---|---|
 | `analysis_code_submission.R` | R script reproducing all tables and figures in the manuscript |
-| `sample_data_for_review.csv` | De-identified sample dataset for verifying code execution |
-| `column_dictionary.pdf` | Description of all variables in the dataset |
+| `column_dictionary.pdf` | Description of all variables in the analysis dataset |
 | `session_info.txt` | R session information (version and package details) |
 
-> **Note:** The sample dataset is a de-identified subset provided for
-> code verification only. Output values will differ from the manuscript;
-> the full dataset is available upon request (see below).
+> **Note:** This repository does not contain any participant-level data.
+> See [Data availability](#data-availability) for how the data may be
+> accessed.
 
 ---
 
@@ -37,13 +36,15 @@ of weight loss during obesity treatment"**
 
 ## How to run
 
-1. Open `analysis_code_submission.R`
-2. Edit the two path variables near the top of the script (lines ~49–50):
+1. Obtain the analysis dataset (see [Data availability](#data-availability)).
+   The script reads it from `DATA_DIR/sample_data.csv`.
+2. Open `analysis_code_submission.R`
+3. Edit the two path variables near the top of the script (lines ~49–50):
    ```r
-   DATA_DIR <- ""   # folder containing sample_data_for_review.csv
+   DATA_DIR <- ""   # folder containing the analysis dataset
    OUT_DIR  <- ""   # folder where outputs will be written
    ```
-3. Run the script from top to bottom. All tables (XLSX) and figures (PDF)
+4. Run the script from top to bottom. All tables (XLSX) and figures (PDF)
    are written to `OUT_DIR`.
 
 ---
@@ -64,3 +65,15 @@ of weight loss during obesity treatment"**
 > **Note:** Fig. 1 and Fig. 5a are schematic diagrams not generated
 > by this script.
 
+---
+
+## Data availability
+
+The participant-level data analysed in this study contain sensitive health
+information and are not publicly available, in order to protect the privacy
+of study participants.
+
+De-identified data supporting the findings of this study may be made
+available from the corresponding author upon reasonable request, subject to
+applicable ethical approvals and a data use agreement. The structure and
+definitions of all variables are documented in `column_dictionary.pdf`.
